@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+* {
+    box-sizing: border-box;
+	 transition: 0.5s;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  background-color: hsl(0, 0%, 95%);
+  padding: 100px;
+}
+
+#container {
+  display: flex;
+  width: 900px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  margin-bottom: 30px;
+  
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 90%;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.one {
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.two {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+}
+
+.three {
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.cars {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+}
+
+.sedan {
+  background: url(icon-sedans.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.suv {
+  background: url(icon-suvs.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.luxury {
+  background: url(icon-luxury.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  padding: 5px;
+  width: 120px;
+  height: 40px;
+  border: 0;
+  margin-top: 80px;
+  font-weight: 400;
+}
+
+button:hover {
+  background: none;
+  color: hsl(0, 0%, 95%);
+  border: 1px solid hsl(0, 0%, 95%);
+}
+
+.sedan-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 900px) {
+  #container {
+    flex-direction: column;
+    max-width: 500px;
+  }
+  
+  .one {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.three {
+  border-radius: 0px 0px 10px 10px;
+}
+}
+
+@media (max-width: 600px) {
+  #container {
+    max-width: 300px;
+  }
+}
