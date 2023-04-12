@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub)
-- Live Site URL: [Vercel](https://order-summary-component-flax-two.vercel.app/)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/responsive-3-column-preview-card-component-with-flex-j3xJeJC-ym)
+- Live Site URL: [Vercel](https://3-column-preview-card-sand.vercel.app/)
 
 ### Built with
 
