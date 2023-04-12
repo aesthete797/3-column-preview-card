@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
 * {
     box-sizing: border-box;
@@ -28,7 +27,7 @@ h1 {
   color: hsl(0, 0%, 95%);
   font-weight: 700;
   margin-bottom: 30px;
-  
+  font-family: "Big Shoulders Display", sans-serif;
 }
 
 p {
@@ -36,6 +35,11 @@ p {
   font-size: 16px;
   max-width: 90%;
   color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.two p {
+  margin-bottom: 35px;
 }
 
 .one {
